@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Travel Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-bg">
+
+    <aside class="social-sidebar">
+        <a href="#" title="Facebook">📘</a>
+        <a href="#" title="Instagram">📸</a>
+        <a href="#" title="Twitter">🐦</a>
+    </aside>
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <h2>JS Travel</h2>
+        </div>
+        <div class="nav-links">
+            <a href="travel_recommendation.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+        <div class="nav-search">
+            <input type="text" id="searchInput" placeholder="Search destinations...">
+            <button id="searchBtn">Search</button>
+            <button id="clearBtn">Clear</button>
+        </div>
+    </nav>
+
+    <main class="home-content">
+        <div class="intro-section">
+            <h1>Explore the World With Us</h1>
+            <p>Find the best beaches, temples, and countries for your next adventure.</p>
+            </div>
+
+        <div id="resultsContainer" class="results-grid">
+            </div>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
